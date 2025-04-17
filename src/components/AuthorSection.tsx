@@ -44,17 +44,7 @@ const AuthorSection = () => {
             </div>
           </div>
           
-          <div className="md:order-1 relative opacity-0 animate-fade-in-delay-1">
-            <div className="absolute -inset-4 rounded-lg bg-gradient-to-br from-fo-accent/20 to-transparent blur-xl animate-pulse-light" />
-            <div className="relative rounded-lg overflow-hidden glass-effect p-2">
-              <img 
-                src="https://placehold.co/400x500/3D0E44/ffffff?text=Idalina+Gurjão" 
-                alt="Autora Idalina Gurjão" 
-                className="w-full rounded-lg shadow-lg hover-scale" 
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-fo-dark to-transparent opacity-40" />
-            </div>
-          </div>
+        
         </div>
       </div>
     </section>

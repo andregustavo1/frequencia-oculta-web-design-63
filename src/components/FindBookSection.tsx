@@ -18,7 +18,7 @@ const platforms = [
 
 const FindBookSection = () => {
   return (
-    <section id="where" className="section bg-gradient-to-b from-fo-dark via-fo-purple-dark to-fo-dark">
+    <section id="where" className="section bg-gradient-to-b from-fo-dark via-fo-purple-dark to-fo-dark mx-auto">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 opacity-0 animate-fade-in">
           <h2 className="text-3xl md:text-5xl font-bold mb-4 text-shadow">
@@ -29,7 +29,7 @@ const FindBookSection = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-12 items-center mx-auto">
           <div className="space-y-8 opacity-0 animate-fade-in-delay-1">
             {platforms.map((platform, index) => (
               <div 
@@ -66,30 +66,7 @@ const FindBookSection = () => {
               </p>
             </div>
           </div>
-          
-          <div className="relative opacity-0 animate-fade-in-delay-2">
-            <div className="absolute -inset-4 rounded-lg bg-gradient-to-br from-fo-accent/20 to-transparent blur-xl animate-pulse-light" />
-            <div className="glass-effect p-8 rounded-lg relative">
-              <div className="bg-fo-accent/10 p-4 rounded-lg mb-6">
-                <h3 className="text-xl font-bold mb-2 text-center">Destaque</h3>
-                <p className="text-white/80 text-center">
-                  Frequência Oculta estará presente na
-                </p>
-                <p className="text-2xl font-bold text-center mt-2 text-fo-accent">
-                  Bienal do Livro
-                </p>
-              </div>
-              
-              <div className="relative">
-                <img 
-                  src="https://placehold.co/500x300/3D0E44/ffffff?text=Mockup+Livro" 
-                  alt="Mockup do livro Frequência Oculta" 
-                  className="w-full rounded-lg shadow-lg hover-scale" 
-                />
-                <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-fo-accent/30 rounded-full blur-2xl animate-pulse-light" />
-              </div>
-            </div>
-          </div>
+        
         </div>
       </div>
     </section>
