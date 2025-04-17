@@ -32,6 +32,15 @@ const FinalCta = () => {
             Adquirir Agora
           </a>
         </div>
+        
+        <div className="mt-16 relative max-w-lg mx-auto opacity-0 animate-fade-in-delay-2">
+          <div className="absolute -inset-4 rounded-lg bg-gradient-to-br from-fo-accent/30 to-transparent blur-xl animate-pulse-light" />
+          <img 
+            src="https://placehold.co/600x400/3D0E44/ffffff?text=Frequência+Oculta" 
+            alt="Mockup do livro Frequência Oculta" 
+            className="w-full rounded-lg shadow-2xl relative z-10 hover-scale hover-glow"
+          />
+        </div>
       </div>
     </section>
   );
