@@ -6,13 +6,13 @@ const platforms = [
     name: "Uiclap", 
     type: "Livro Físico", 
     logo: "https://placehold.co/200x80/3D0E44/ffffff?text=Uiclap",
-    link: "https://wa.me/5585985540007?text=Olá! Gostaria de adquirir o livro físico Frequência Oculta pela plataforma Uiclap." 
+    link: "https://loja.uiclap.com/titulo/ua86957/" 
   },
   { 
     name: "Amazon", 
     type: "Livro Digital", 
     logo: "https://placehold.co/200x80/3D0E44/ffffff?text=Amazon",
-    link: "https://wa.me/5585985540007?text=Olá! Gostaria de adquirir o livro digital Frequência Oculta pela plataforma Amazon." 
+    link: "https://a.co/d/iX3FfcQ" 
   }
 ];
 
