@@ -98,7 +98,7 @@ const HeroSection = () => {
         <div className="relative opacity-0 animate-fade-in-delay-3">
           <div className="absolute -inset-4 rounded-lg bg-gradient-to-br from-fo-accent/20 to-transparent blur-xl animate-pulse-light" />
           <img 
-            src="https://placehold.co/400x600/3D0E44/ffffff?text=Frequência+Oculta" 
+            src="/lovable-uploads/49b6d1a6-dfa0-4b12-86ef-d6ced515f144.png" 
             alt="Capa do Livro Frequência Oculta" 
             className="w-full max-w-[350px] mx-auto rounded-md shadow-2xl relative z-10 hover-scale hover-glow"
           />
@@ -110,3 +110,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
