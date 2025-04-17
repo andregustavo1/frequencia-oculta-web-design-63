@@ -68,7 +68,6 @@ const FindBookSection = () => {
           </div>
           
           <div className="relative opacity-0 animate-fade-in-delay-2">
-            <div className="absolute -inset-4 rounded-lg bg-gradient-to-br from-fo-accent/20 to-transparent blur-xl animate-pulse-light" />
             <div className="glass-effect p-8 rounded-lg relative">
               <div className="bg-fo-accent/10 p-4 rounded-lg mb-6">
                 <h3 className="text-xl font-bold mb-2 text-center">Destaque</h3>
@@ -86,7 +85,6 @@ const FindBookSection = () => {
                   alt="Mockup do livro Frequência Oculta" 
                   className="w-full rounded-lg shadow-lg hover-scale" 
                 />
-                <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-fo-accent/30 rounded-full blur-2xl animate-pulse-light" />
               </div>
             </div>
           </div>
