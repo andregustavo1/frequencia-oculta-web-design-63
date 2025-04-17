@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
@@ -93,19 +92,15 @@
 
 /* Custom cursor styling */
 * {
-  cursor: none;
+  cursor: default;
 }
 
 .cursor-dot {
-  width: 5px;
-  height: 5px;
-  background-color: #8A2BE2;
+  display: none;
 }
 
 .cursor-outline {
-  width: 30px;
-  height: 30px;
-  border: 2px solid rgba(138, 43, 226, 0.5);
+  display: none;
 }
 
 .cursor-dot, .cursor-outline {
